@@ -56,8 +56,8 @@
       <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="423">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1071#1072#0" expanded="true" />
@@ -72,12 +72,10 @@
       <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="513">
+              <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
-                <element signature="e#2362#2363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -489,8 +487,8 @@
         <option value="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
       </list>
     </option>
   </component>
@@ -591,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComputerTest.canSetDataStream">
+  <component name="RunManager" selected="JUnit.ComputerTest.canSetDataStreamViaInputData">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -632,13 +630,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ComputerTest.canSetOutputDevice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputerTest.canSetDataStreamViaInputData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompositionStartPoint_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerTest" />
-      <option name="METHOD_NAME" value="canSetOutputDevice" />
+      <option name="METHOD_NAME" value="canSetDataStreamViaInputData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -649,14 +647,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="KeyboardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputerTest.canSetOutputDevice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompositionStartPoint_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KeyboardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ComputerTest" />
+      <option name="METHOD_NAME" value="canSetOutputDevice" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -736,18 +734,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MouseTest" />
-      <item itemvalue="JUnit.KeyboardTest" />
       <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
       <item itemvalue="JUnit.ComputerTest" />
       <item itemvalue="JUnit.ComputerTest.canSetDataStream" />
+      <item itemvalue="JUnit.ComputerTest.canSetDataStreamViaInputData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerTest.canSetDataStreamViaInputData" />
         <item itemvalue="JUnit.ComputerTest.canSetDataStream" />
         <item itemvalue="JUnit.ComputerTest" />
         <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
         <item itemvalue="JUnit.MouseTest" />
-        <item itemvalue="JUnit.KeyboardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -765,9 +763,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComputerTest_canOutputDataViaPrinter - 2018.07.03 at 10h 45m 02s.xml">
-      <configuration name="ComputerTest.canOutputDataViaPrinter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ComputerTest_canOutputDataViaSpeaker - 2018.07.03 at 10h 48m 53s.xml">
       <configuration name="ComputerTest.canOutputDataViaSpeaker" configurationId="JUnit" />
     </history-entry>
@@ -795,6 +790,9 @@
     <history-entry file="ComputerTest - 2018.07.03 at 11h 58m 00s.xml">
       <configuration name="ComputerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ComputerTest_canSetDataStream - 2018.07.03 at 12h 02m 54s.xml">
+      <configuration name="ComputerTest.canSetDataStream" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -802,7 +800,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -1403,8 +1401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="423">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1071#1072#0" expanded="true" />
@@ -1417,12 +1415,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+        <state relative-caret-position="513">
+          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <element signature="e#2362#2363#0" expanded="true" />
           </folding>
         </state>
       </provider>

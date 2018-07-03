@@ -35,6 +35,7 @@ public class Computer {
     }
 
     public String inputData(String data) {
+        setDataStream(data);
         return this.inputDevice.sendData(data);
     }
 

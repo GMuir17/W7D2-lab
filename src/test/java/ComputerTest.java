@@ -82,6 +82,14 @@ public class ComputerTest {
         assertEquals("not null", computer.getDataStream());
     }
 
+    @Test
+    public void canSetDataStreamViaInputData() {
+        Keyboard keyboard = new Keyboard("Corded", "Apple");
+        computer = new Computer(8, 512, speaker, keyboard);
+        computer.inputData("not null");
+        assertEquals("not null", computer.getDataStream());
+    }
+
 
 
 }
