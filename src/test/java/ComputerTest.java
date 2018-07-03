@@ -15,8 +15,8 @@ public class ComputerTest {
     @Before
     public void before() {
         monitor = new Monitor(22, 786432);
-        computer = new Computer(8, 512, monitor, mouse);
         Mouse mouse = new Mouse("Field", "Panasonic");
+        computer = new Computer(8, 512, monitor, mouse);
         Speaker speaker = new Speaker(100);
     }
 
@@ -31,8 +31,13 @@ public class ComputerTest {
     }
 
     @Test
+    public void hasInputDevice() {
+       assertNotNull(computer.getInputDevice());
+    }
+
+    @Test
     public void hasOutputDevice() {
-       assertNotNull(computer.getOutputDevice());
+        assertNotNull(computer.getOutputDevice());
     }
 
     @Test
@@ -89,6 +94,13 @@ public class ComputerTest {
         computer.inputData("not null");
         assertEquals("not null", computer.getDataStream());
     }
+
+    @Test
+    public void canGetOutputDataStream() {
+        computer.inputData("hello");
+        assertEquals("hello is now on screen", computer.outputDataStream());
+    }
+
 
 
 

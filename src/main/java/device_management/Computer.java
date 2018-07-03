@@ -26,6 +26,10 @@ public class Computer {
         return this.hddSize;
     }
 
+    public IInput getInputDevice() {
+        return this.inputDevice;
+    }
+
     public IOutput getOutputDevice() {
         return this.outputDevice;
     }
@@ -50,4 +54,9 @@ public class Computer {
     public String getDataStream() {
         return dataStream;
     }
+
+    public String outputDataStream() {
+        return this.outputDevice.outputData(dataStream);
+    }
+
 }
