@@ -56,10 +56,14 @@
       <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,10 +72,12 @@
       <file leaf-file-name="ComputerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="545">
+              <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2340#2341#0" expanded="true" />
+                <element signature="e#2362#2363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -482,9 +488,9 @@
         <option value="$PROJECT_DIR$/src/main/java/device_management/Mouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/device_management/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/test/java/MouseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
         <option value="$PROJECT_DIR$/src/test/java/KeyboardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComputerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/device_management/Computer.java" />
       </list>
     </option>
   </component>
@@ -585,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComputerTest">
+  <component name="RunManager" selected="JUnit.ComputerTest.canSetDataStream">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -609,13 +615,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ComputerTest.canOutputDataViaPrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputerTest.canSetDataStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CompositionStartPoint_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerTest" />
-      <option name="METHOD_NAME" value="canOutputDataViaPrinter" />
+      <option name="METHOD_NAME" value="canSetDataStream" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -729,19 +735,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComputerTest.canOutputDataViaPrinter" />
       <item itemvalue="JUnit.MouseTest" />
       <item itemvalue="JUnit.KeyboardTest" />
       <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
       <item itemvalue="JUnit.ComputerTest" />
+      <item itemvalue="JUnit.ComputerTest.canSetDataStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerTest.canSetDataStream" />
         <item itemvalue="JUnit.ComputerTest" />
         <item itemvalue="JUnit.ComputerTest.canSetOutputDevice" />
         <item itemvalue="JUnit.MouseTest" />
         <item itemvalue="JUnit.KeyboardTest" />
-        <item itemvalue="JUnit.ComputerTest.canOutputDataViaPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -759,12 +765,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TelevisionTest - 2017.11.21 at 11h 11m 50s.xml">
-      <configuration name="TelevisionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TypeWriterTest - 2017.11.21 at 10h 49m 15s.xml">
-      <configuration name="TypeWriterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ComputerTest_canOutputDataViaPrinter - 2018.07.03 at 10h 45m 02s.xml">
       <configuration name="ComputerTest.canOutputDataViaPrinter" configurationId="JUnit" />
     </history-entry>
@@ -789,6 +789,12 @@
     <history-entry file="MouseTest - 2018.07.03 at 11h 51m 26s.xml">
       <configuration name="MouseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ComputerTest_canSetOutputDevice - 2018.07.03 at 11h 56m 49s.xml">
+      <configuration name="ComputerTest.canSetOutputDevice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComputerTest - 2018.07.03 at 11h 58m 00s.xml">
+      <configuration name="ComputerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -807,7 +813,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32965517" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25767368" />
       <window_info anchor="bottom" id="Build" weight="0.32965517" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
@@ -834,6 +840,10 @@
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -912,6 +922,10 @@
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1023,6 +1037,10 @@
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1385,20 +1403,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/device_management/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ComputerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        <state relative-caret-position="545">
+          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
           </folding>
         </state>
       </provider>

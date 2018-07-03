@@ -75,4 +75,13 @@ public class ComputerTest {
         computer.setOutputDevice(printer);
         assertEquals("printing: dissertation", computer.outputData("dissertation"));
     }
+
+    @Test
+    public void canSetDataStream() {
+        computer.setDataStream("not null");
+        assertEquals("not null", computer.getDataStream());
+    }
+
+
+
 }
