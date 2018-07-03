@@ -22,4 +22,9 @@ public class KeyboardTest {
     public void hasManufacturer(){
         assertEquals("Logitech", keyboard.getManufacturer());
     }
+
+    @Test
+    public void canSendData(){
+        assertEquals("Transmitting typing data", keyboard.sendData("Transmitting typing data"));
+    }
 }

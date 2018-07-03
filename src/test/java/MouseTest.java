@@ -22,4 +22,9 @@ public class MouseTest {
     public void hasManufacturer(){
         assertEquals("Logitech", mouse.getManufacturer());
     }
+
+    @Test
+    public void canSendData(){
+        assertEquals("Transmitting mousing data", mouse.sendData("Transmitting mousing data"));
+    }
 }

@@ -1,6 +1,8 @@
 package device_management;
 
-public class Mouse extends InputDevice {
+import Behaviours.IInput;
+
+public class Mouse extends InputDevice implements IInput {
 
     private String manufacturer;
 
@@ -11,5 +13,9 @@ public class Mouse extends InputDevice {
 
     public String getManufacturer(){
         return this.manufacturer;
+    }
+
+    public String sendData(String data){
+        return data;
     }
 }
